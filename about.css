@@ -1,0 +1,260 @@
+:root {
+    scrollbar-gutter: auto !important;
+}
+.body::-webkit-scrollbar {
+    display: none; 
+}
+.hero {
+     background-image: url(./assets/background.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+.navbar-brand {
+  color: rgb(249, 178, 0);
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* background-color: brown; */
+    border-radius: 20px;
+    text-decoration: solid;
+    /* border: 1px solid brown; */
+    text-shadow: 1px 1px 5px red;
+}
+.nav-brand {
+    padding-left: 100px;
+   display: flex;
+   align-items: center;
+}
+.ac-tive {
+    background-color: rgb(248, 248, 1);
+    color: black !important ;
+    border-radius: 10px;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+}
+.nav-link {
+    color: rgb(255, 251, 251);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.point:hover{
+    cursor: pointer;
+    background-color: yellow;
+    border: 1px solid yellow;
+    color: black;
+}
+/* About Hero */
+
+.about-hero {
+    width: 100%;
+    height: 600px;
+    background: 
+    url("./about/WhatsApp\ Image\ 2026-11-08\ at\ 7.10.58\ PM.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* Our Story */
+
+.our-story {
+    background-color: #fff7f7;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 60px 8%;
+}
+
+.story-image {
+    flex: 1;
+}
+
+.story-image img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.story-content {
+    flex: 1;
+}
+
+.story-content h2 {
+    font-size: 38px;
+    color: rgb(0, 0, 0);
+}
+
+.story-content h2 span {
+    color: rgb(250, 0, 0);
+}
+
+.story-content p {
+    color: #000000;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.story-btn {
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    padding: 13px 25px;
+    font-weight: bold;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.story-btn:hover {
+    background-color: orange;
+}
+
+
+/* Mission and Vision */
+
+.mission-vision {
+    background-color: #fffefe;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 40px 8% 60px;
+}
+
+.mv-card {
+    background-color: #451c1c;
+    border: 5px solid #444;
+    border-radius: 15px;
+    padding: 35px;
+    text-align: center;
+    color: white;
+    transition: 0.4s ease;
+}
+
+.mv-card:hover {
+    border-color: yellow;
+}
+
+.mv-icon {
+    font-size: 45px;
+}
+
+.mv-card h3 {
+    color: yellow;
+    margin: 15px 0;
+}
+
+.mv-card p {
+    color: #ccc;
+    line-height: 1.7;
+}
+.main-footer {
+    background: #f1ecec;
+    color: rgb(6, 5, 5), 5, 5;
+    padding: 55px 6% 0;
+    border-top: 2px solid #ffcc00;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1.3fr 1fr;
+    gap: 40px;
+    padding-bottom: 45px;
+}
+
+.footer-logo {
+    color: brown;
+    font-size: 32px;
+    margin-bottom: 18px;
+}
+
+.footer-logo span {
+    color: brown;
+}
+
+
+.footer-box h3 {
+    color: red;
+    font-size: 20px;
+    margin-bottom: 22px;
+}
+.brand {
+    display: flex;
+}
+.footer-box p {
+    color: #000000;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+.footer-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-box ul li {
+    margin-bottom: 13px;
+}
+
+.footer-box ul li a {
+    color: #000000;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.footer-box ul li a:hover {
+    color: red;
+}
+
+/* SOCIAL LINKS */
+.footer-social {
+    display: flex;
+    gap: 12px;
+    margin-top: 22px;
+}
+
+.footer-social a {
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #222;
+    color: #ffcc00;
+    border: 1px solid #444;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.footer-social a:hover {
+    background: #ffcc00;
+    color: #080808;
+}
+
+/* FOOTER BOTTOM */
+.footer-bottom {
+    border-top: 1px solid #333;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.footer-bottom p {
+    color: #777;
+    font-size: 13px;
+    margin: 0;
+}
+
+
